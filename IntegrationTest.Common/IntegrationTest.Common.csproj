@@ -7,9 +7,18 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Selenium.Support" Version="4.9.1" />
+	  <PackageReference Include="NLog" Version="5.2.0" />
+	  <PackageReference Include="NUnit" Version="3.13.3" />
+	  <PackageReference Include="Selenium.Support" Version="4.9.1" />
     <PackageReference Include="Selenium.WebDriver" Version="4.9.1" />
     <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="114.0.5735.9000" />
+    <PackageReference Include="System.Drawing.Common" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\App.Common\App.Common.csproj" />
+    <ProjectReference Include="..\App.ShoppingApp\App.ShoppingApp.csproj" />
+    <ProjectReference Include="..\IntegrationTestsDataAccess\IntegrationTestsDataAccess.csproj" />
   </ItemGroup>
 
 </Project>

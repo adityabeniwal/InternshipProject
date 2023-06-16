@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "XEf4Z258cpiqCkvZX0kh3tJAlRc3+TUwLTS2PtjNaZuCGfF0BcmWUToyMqB2JIr7bOnKC4WX6iOSMa81QRnL/w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ndladi01\\source\\repos\\InternshipProject\\IntegrationTestsDataAccess\\IntegrationTestsDataAccess.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ndladi01\\.nuget\\packages\\microsoft.win32.systemevents\\7.0.0\\microsoft.win32.systemevents.7.0.0.nupkg.sha512",
+    "C:\\Users\\ndladi01\\.nuget\\packages\\system.drawing.common\\7.0.0\\system.drawing.common.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

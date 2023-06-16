@@ -15,7 +15,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UITests", "UITests", "{243A
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShoppingApp.IntegrationTest", "ShoppingApp.IntegrationTest\ShoppingApp.IntegrationTest.csproj", "{466309D8-9631-41C3-A8A3-EA9AEC8E5BAF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegrationTest.Common", "IntegrationTest.Common\IntegrationTest.Common.csproj", "{0BC2A15B-5BEF-4CE2-84C0-BDE6DBFB20C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntegrationTest.Common", "IntegrationTest.Common\IntegrationTest.Common.csproj", "{0BC2A15B-5BEF-4CE2-84C0-BDE6DBFB20C1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{58E00C21-CDDB-4201-BB48-722324DE3A85} = {58E00C21-CDDB-4201-BB48-722324DE3A85}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DatabaseAccess", "DatabaseAccess", "{89D8A7BE-0062-49AC-AABE-17BFC621689E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegrationTestsDataAccess", "IntegrationTestsDataAccess\IntegrationTestsDataAccess.csproj", "{58E00C21-CDDB-4201-BB48-722324DE3A85}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +46,10 @@ Global
 		{0BC2A15B-5BEF-4CE2-84C0-BDE6DBFB20C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0BC2A15B-5BEF-4CE2-84C0-BDE6DBFB20C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0BC2A15B-5BEF-4CE2-84C0-BDE6DBFB20C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58E00C21-CDDB-4201-BB48-722324DE3A85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58E00C21-CDDB-4201-BB48-722324DE3A85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58E00C21-CDDB-4201-BB48-722324DE3A85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58E00C21-CDDB-4201-BB48-722324DE3A85}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -49,6 +60,7 @@ Global
 		{243A6D9D-1692-4723-B687-DBC27CD8628B} = {D5178D90-CC1A-4E4B-AFF3-D390BC6861D8}
 		{466309D8-9631-41C3-A8A3-EA9AEC8E5BAF} = {243A6D9D-1692-4723-B687-DBC27CD8628B}
 		{0BC2A15B-5BEF-4CE2-84C0-BDE6DBFB20C1} = {243A6D9D-1692-4723-B687-DBC27CD8628B}
+		{58E00C21-CDDB-4201-BB48-722324DE3A85} = {89D8A7BE-0062-49AC-AABE-17BFC621689E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0579AC5A-4DA1-419A-9B0D-211566D3DD54}
