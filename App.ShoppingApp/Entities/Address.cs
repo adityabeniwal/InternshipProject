@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace App.ShoppingApp.Entities
 {
-    internal class Address
+    public class Address
     {
     }
 }

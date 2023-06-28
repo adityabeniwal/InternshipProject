@@ -7,13 +7,14 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using NUnit.Framework.Internal;
 using App.Common.Helpers;
+using NUnit.Framework.Internal;
 using IntegrationTest.Common.Nlog;
+using IntegrationTestsDataAccess.Entities.Common;
 
 namespace IntegrationTest.Common
 {
-    public class TearDownTestBase
+    public abstract class TearDownTestBase
     {
         protected bool AlreadyScreenshot = false;
         protected Browser _browser { get; set; }

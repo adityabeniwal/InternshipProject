@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace IntegrationTest.Common
 {
-    internal class Settings
+    public class Settings
     {
+        public static string TargetAppUrl = "https://www.saucedemo.com/";
     }
 }

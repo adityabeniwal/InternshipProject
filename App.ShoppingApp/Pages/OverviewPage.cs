@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace App.ShoppingApp.Pages
 {
-    internal class OverviewPage
+    public class OverviewPage
     {
     }
 }

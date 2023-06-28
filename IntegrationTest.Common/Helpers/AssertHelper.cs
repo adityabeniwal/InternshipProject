@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace IntegrationTest.Common.Helpers
 {
-    internal class AssertHelper
+    public class AssertHelper
     {
     }
 }

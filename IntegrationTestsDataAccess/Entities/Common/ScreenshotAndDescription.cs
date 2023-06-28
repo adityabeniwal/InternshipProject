@@ -2,7 +2,7 @@
 using System.Drawing;
 using System.Net.Mime;
 
-namespace IntegrationTest.Common
+namespace IntegrationTestsDataAccess.Entities.Common
 {
     public class ScreenshotAndDescription
     {

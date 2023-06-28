@@ -1,4 +1,4 @@
-﻿using IntegrationTest.Common;
+﻿
 using OpenQA.Selenium;
 using System;
 using System.Collections.Generic;
@@ -8,6 +8,7 @@ using System.Drawing.Imaging;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using IntegrationTestsDataAccess.Entities.Common;
 using Microsoft.VisualBasic.CompilerServices;
 
 namespace App.Common.Helpers

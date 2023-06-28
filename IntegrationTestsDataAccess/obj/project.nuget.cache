@@ -1,11 +1,27 @@
 {
   "version": 2,
-  "dgSpecHash": "XEf4Z258cpiqCkvZX0kh3tJAlRc3+TUwLTS2PtjNaZuCGfF0BcmWUToyMqB2JIr7bOnKC4WX6iOSMa81QRnL/w==",
+  "dgSpecHash": "XeVK/QX8/HOwW/Hcw2MXa95G2XXgs/H3S3GhZqHUW18s8hSkspgY43ea8WKFCPPQjddV45Y6GGOgQPaLa6c9dg==",
   "success": true,
   "projectFilePath": "C:\\Users\\ndladi01\\source\\repos\\InternshipProject\\IntegrationTestsDataAccess\\IntegrationTestsDataAccess.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ndladi01\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\ndladi01\\.nuget\\packages\\microsoft.win32.systemevents\\7.0.0\\microsoft.win32.systemevents.7.0.0.nupkg.sha512",
-    "C:\\Users\\ndladi01\\.nuget\\packages\\system.drawing.common\\7.0.0\\system.drawing.common.7.0.0.nupkg.sha512"
+    "C:\\Users\\ndladi01\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
+    "C:\\Users\\ndladi01\\.nuget\\packages\\nunit\\3.13.3\\nunit.3.13.3.nupkg.sha512",
+    "C:\\Users\\ndladi01\\.nuget\\packages\\nunit3testadapter\\4.5.0\\nunit3testadapter.4.5.0.nupkg.sha512",
+    "C:\\Users\\ndladi01\\.nuget\\packages\\system.drawing.common\\7.0.0\\system.drawing.common.7.0.0.nupkg.sha512",
+    "C:\\Users\\ndladi01\\.nuget\\packages\\test\\2.0.1.1\\test.2.0.1.1.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Test 2.0.1.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Test",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

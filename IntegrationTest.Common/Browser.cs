@@ -22,7 +22,7 @@ namespace IntegrationTest.Common
 
             ConfigNLog.Logger.Info("Driver create start");
 
-            //Driver = BrowserFactory.CreateWebDriver(browser, Settings.RunWithGrid);
+            Driver = BrowserFactory.CreateWebDriver(browser);
 
             ConfigNLog.Logger.Info("Driver create end");
 

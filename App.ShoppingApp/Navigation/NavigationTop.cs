@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace App.ShoppingApp.Navigation
 {
-    internal class NavigationTop
+    public class NavigationTop
     {
     }
 }

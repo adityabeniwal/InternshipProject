@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App.ShoppingApp", "App.ShoppingApp\App.ShoppingApp.csproj", "{BC9342B5-E597-43CB-8777-434BE323254B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D1D03FA3-0C04-4DBF-AF4E-12A47FC99449} = {D1D03FA3-0C04-4DBF-AF4E-12A47FC99449}
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Apps", "Apps", "{577E76DD-EDCB-450D-AEC7-FD2DD15B64F1}"
 EndProject
@@ -22,7 +25,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntegrationTest.Common", "I
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DatabaseAccess", "DatabaseAccess", "{89D8A7BE-0062-49AC-AABE-17BFC621689E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegrationTestsDataAccess", "IntegrationTestsDataAccess\IntegrationTestsDataAccess.csproj", "{58E00C21-CDDB-4201-BB48-722324DE3A85}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntegrationTestsDataAccess", "IntegrationTestsDataAccess\IntegrationTestsDataAccess.csproj", "{58E00C21-CDDB-4201-BB48-722324DE3A85}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebDriver", "WebDriver", "{DF7CA009-35E4-42BA-A476-1BC53E1E3A68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebDriver.Extensions", "WebDriver.Extensions\WebDriver.Extensions.csproj", "{EB04F64C-CEEB-4B96-8570-26652AEC9FE4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -50,6 +57,10 @@ Global
 		{58E00C21-CDDB-4201-BB48-722324DE3A85}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58E00C21-CDDB-4201-BB48-722324DE3A85}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58E00C21-CDDB-4201-BB48-722324DE3A85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB04F64C-CEEB-4B96-8570-26652AEC9FE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB04F64C-CEEB-4B96-8570-26652AEC9FE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB04F64C-CEEB-4B96-8570-26652AEC9FE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB04F64C-CEEB-4B96-8570-26652AEC9FE4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -61,6 +72,7 @@ Global
 		{466309D8-9631-41C3-A8A3-EA9AEC8E5BAF} = {243A6D9D-1692-4723-B687-DBC27CD8628B}
 		{0BC2A15B-5BEF-4CE2-84C0-BDE6DBFB20C1} = {243A6D9D-1692-4723-B687-DBC27CD8628B}
 		{58E00C21-CDDB-4201-BB48-722324DE3A85} = {89D8A7BE-0062-49AC-AABE-17BFC621689E}
+		{EB04F64C-CEEB-4B96-8570-26652AEC9FE4} = {DF7CA009-35E4-42BA-A476-1BC53E1E3A68}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0579AC5A-4DA1-419A-9B0D-211566D3DD54}
