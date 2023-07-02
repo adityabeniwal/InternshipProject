@@ -18,6 +18,8 @@ namespace App.ShoppingApp.Pages
 
         public IWebElement RemoveFromCartButton => Driver.FindElement(By.Id("remove-sauce-labs-backpack"));
 
+        public IWebElement CheckoutButton => Driver.FindElement(By.Id("checkout"));
+
 
         public bool GetItemInCartConfirmation()
         {
@@ -36,5 +38,11 @@ namespace App.ShoppingApp.Pages
             RemoveFromCartButton.Click();
         }
 
+        public CheckoutPage CheckoutFromCart()
+        {
+            CheckoutButton.Click();
+            return new CheckoutPage(Driver);
+
+        }
     }
 }
